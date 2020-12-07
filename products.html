@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALL PRODUCTS | ECOMMERCE WEBSITE</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -33,8 +37,9 @@
             </ul>
           </nav>
           <a href="cart.html"
-            ><img src="/images/cart.png" alt="" width="30px" height="30px"
-          /></a>
+            ><img src="/images/cart.png" alt="" width="30px" height="30px" />
+            <span>0</span></a
+          >
           <img
             src="/images/menu.png"
             alt=""
@@ -68,6 +73,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -79,6 +85,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -90,6 +97,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -101,52 +109,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <img src="/images/banner.png" alt="" />
-          <h4>Product Name</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-          <p>Price</p>
-        </div>
-        <div class="col-4">
-          <img src="/images/banner.png" alt="" />
-          <h4>Product Name</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-          <p>Price</p>
-        </div>
-        <div class="col-4">
-          <img src="/images/banner.png" alt="" />
-          <h4>Product Name</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-          <p>Price</p>
-        </div>
-        <div class="col-4">
-          <img src="/images/banner.png" alt="" />
-          <h4>Product Name</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-          <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
       </div>
       <div class="row">
@@ -160,6 +123,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button onclick="add()" class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -171,6 +135,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -182,6 +147,7 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
         <div class="col-4">
           <img src="/images/banner.png" alt="" />
@@ -193,6 +159,57 @@
             <i class="fa fa-star"></i>
           </div>
           <p>Price</p>
+          <button class="addToCart">Add to cart</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="/images/banner.png" alt="" />
+          <h4>Product Name</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>Price</p>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div class="col-4">
+          <img src="/images/banner.png" alt="" />
+          <h4>Product Name</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>Price</p>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div class="col-4">
+          <img src="/images/banner.png" alt="" />
+          <h4>Product Name</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>Price</p>
+          <button class="addToCart">Add to cart</button>
+        </div>
+        <div class="col-4">
+          <img src="/images/banner.png" alt="" />
+          <h4>Product Name</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>Price</p>
+          <button class="addToCart">Add to cart</button>
         </div>
       </div>
     </div>

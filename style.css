@@ -44,6 +44,9 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* .row h2 {
+  margin-left: 50px;
+} */
 .col-2 {
   flex-basis: 40%;
   min-width: 300px;
@@ -54,7 +57,7 @@ p {
   padding: 50px 0;
 }
 .col-2 p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .col-2 h1 {
   font-size: 50px;
@@ -215,7 +218,7 @@ select:focus {
 .single-product .col-2 img {
   padding: 0;
 }
-,
+
 .single-product .col-2 {
   padding: 20px;
 }
