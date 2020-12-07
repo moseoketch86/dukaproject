@@ -33,8 +33,9 @@
             </ul>
           </nav>
           <a href="cart.html"
-            ><img src="/images/cart.png" alt="" width="30px" height="30px"
-          /></a>
+            ><img src="/images/cart.png" alt="" width="30px" height="30px" />
+            <span>0</span></a
+          >
           <img
             src="/images/menu.png"
             alt=""
@@ -64,8 +65,7 @@
               <div>
                 <p>Product name</p>
                 <small>pice:55555</small>
-                <br />
-                <a href="">Remove</a>
+                <button>REMOVE PRODUCT</button>
               </div>
             </div>
           </td>
@@ -131,18 +131,6 @@
     </div>
 
     <!-----------js menu toggle-->
-    <script>
-      const MenuItems = document.querySelector("#menuItems");
-
-      MenuItems.style.maxHeight = "0px";
-
-      function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-          MenuItems.style.maxHeight = "200px";
-        } else {
-          MenuItems.style.maxHeight = "0px";
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
